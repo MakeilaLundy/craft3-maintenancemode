@@ -102,7 +102,7 @@ class MaintenanceMode extends Plugin
  */
         Craft::info(
             Craft::t(
-                'maintenancemode',
+                'maintenance-mode',
                 '{name} plugin loaded',
                 ['name' => $this->name]
             ),
